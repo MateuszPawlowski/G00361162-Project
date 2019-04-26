@@ -1,2 +1,1 @@
-"# G00361162-Project" 
-"# G00361162-MobileProject" 
+G00361162 Mobile Application. This is a application on buying shoes. It is advised to use ionic lab when the program loads.
