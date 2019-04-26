@@ -1,14 +1,34 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Matt Shop</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
+<!-- all the code is set in ion-content -->
+<ion-content padding class="home">
+  <h1>Matt Shop</h1>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    <!-- ion-slides allows to see a slide show of pictures implemented -->
+    <ion-slides pager autoplay="3000" loop>
+        <ion-slide>
+            <img src="../../assets/imgs/main.png">
+        </ion-slide>
+        <ion-slide>
+            <img src="../../assets/imgs/timbermain.jpg">
+        </ion-slide>
+        <ion-slide>
+          <img src="../../assets/imgs/mainimage.png" (dblclick)="openNikePage()">
+      </ion-slide>
+      </ion-slides>
+    <br>
+
+    <!-- buttons for each option -->
+    <button (click)="openShopPage()">Shop</button>
+    <button (click)="openLoginPage()">Login</button>
+    <br><br>
+    <button (click)="openAboutUsPage()">About Us</button> 
+    <button (click)="openContactUsPage()">Contact Us</button>
   </p>
+  <br>
+
 </ion-content>

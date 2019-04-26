@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Shop</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- all the code is set in ion-content -->
+<ion-content padding class ="shop">
+  <!-- images and buttons for all the brands -->
+  <h1>---Shop---</h1>  
+  <img src="../../assets/imgs/nike.png" height="130" width="130" (click)="openNikePage()" class="imageLeft">
+  <img src="../../assets/imgs/adidas.png" height="130" width="130" (click)="openAdidasPage()" class="imageRight">
+  <button class="imageLeft" (click)="openNikePage()">Shop Nike</button> 
+  <button class="imageRight" (click)="openAdidasPage()">Shop Adidas</button>
+  <br>
+  <img src="../../assets/imgs/timberland.png" height="120" width="130" (click)="openTimberlandPage()" class="imageLeft">
+  <img src="../../assets/imgs/puma.png" height="120" width="130" (click)="openPumaPage()" class="imageRight">
+  <button class="imageLeft" (click)="openTimberlandPage()">Shop Timberland</button> 
+  <button class="imageRight" (click)="openPumaPage()">Shop Puma</button>
+  <br>
+  <img src="../../assets/imgs/asics.png" height="130" width="130" (click)="openAsicsPage()" class="imageLeft">
+  <img src="../../assets/imgs/newbalance.png" height="130" width="130" (click)="openNewBalancePage()" class="imageRight">
+  <button class="imageLeft" (click)="openAsicsPage()">Shop Asics</button> 
+  <button class="imageRight" (click)="openNewBalancePage()">Shop New Balance</button>
+  
+  <!-- line breaks -->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  <!-- button allowing to go back home -->
+  -----------------------------------------------------------------------
+  <button (click)="openHomePage()">Go Back Home</button>
+  <br> 
+  -----------------------------------------------------------------------
+
+</ion-content>

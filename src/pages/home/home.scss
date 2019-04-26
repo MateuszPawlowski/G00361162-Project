@@ -1,3 +1,27 @@
 page-home {
 
-}
+    .home{
+        background-color: lightblue;
+        text-align: center;
+    }// home class
+
+    button{
+        color: white;
+        text-align: center;
+        background-color: darkblue;
+        height: 5ch;
+        width: 15ch;
+        border-radius: 10ch;
+    }// button tags
+
+    h1{
+        font-weight: bold;
+        color: white;
+        background-color: darkblue;   
+    }// h1 tags
+
+    ion-slides {
+        height: 350px;
+     }// ion-slides tags
+
+}// page-home

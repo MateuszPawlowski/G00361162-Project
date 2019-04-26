@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- all the code is set in ion-content -->
+<ion-content padding class="login">
+  <h1>---Login---</h1>
+
+  <!-- ion-input allow the user to put in some input -->
+  <!-- input to log in -->
+  <ion-item>
+    <ion-input placeholder="Username" [(ngModel)]="username"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-input placeholder="Password" type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+<button ion-button full (click)="logIn()">Log in</button>
+<p>
+  <!-- ion-input allow the user to put in some input -->
+  <!-- input to register -->
+  <ion-item>
+    <ion-input placeholder="Username" [(ngModel)]="regUsername"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-input placeholder="Password" type="password" [(ngModel)]="regPassword"></ion-input>
+  </ion-item>
+
+<button ion-button full color="light" (click)="signUp()">Register</button>
+</p>
+
+<!-- button allowing to go back home -->
+-----------------------------------------------------------------------
+  <button (click)="openHomePage()">Go Back Home</button>
+  <br> 
+  -----------------------------------------------------------------------
+
+</ion-content>

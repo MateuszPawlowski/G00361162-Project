@@ -1,0 +1,42 @@
+page-puma {
+
+    .puma{
+        background-color: lightblue;
+        text-align: center;
+    }// main class
+
+    .shoesImg{
+        float: left;
+    }// class for images
+
+    .cost{
+        font-size: 23px;
+    }// class for cost
+
+    h1{
+        font-weight: bold;
+        font-size: 3rem;
+        background-color: darkblue;
+        color: white;
+    }// h1 tags
+
+    h2{
+        text-align: left;
+    }// h2 tags
+
+    button{
+        color: white;
+        text-align: center;
+        background-color: darkblue;
+        height: 3ch;
+        width: 17ch;
+        border-radius: 2ch;
+    }// button tags
+
+    select{
+        min-width: 40%;
+        background-color: black;
+        color: white;
+    }// select 
+
+}// page-puma

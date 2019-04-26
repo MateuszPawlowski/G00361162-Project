@@ -1,0 +1,79 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>Puma</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="puma">
+    <h1><i>--- Puma ---</i></h1>
+  
+    <h2>Puma SF Future</h2>
+    <img src="../../assets/imgs/pumasf.jpeg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £100</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartFuture()">Add to cart</button>
+    <br>
+  
+    <h2>Puma Tsugi</h2>
+    <img src="../../assets/imgs/pumatsugi.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £130</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartTsugi()">Add to cart</button>
+    <br>
+  
+    <h2>Puma x Pirelli</h2>
+    <img src="../../assets/imgs/pumaxpirelli.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £150</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartPirelli()">Add to cart</button>
+    <br><br>
+  
+    <!-- buttons that allow to check cart/ go to checkout if the total != 0/ goes back to shop-->
+    <button (click)="cart()">Check Cart</button>
+    <button (click)="openCheckoutPage()">Checkout</button>
+    <br>
+    -----------------------------------------------------------------------
+    <button (click)="openShopPage()">Go Back To Shop</button>
+    <br> 
+    -----------------------------------------------------------------------
+   
+  </ion-content>

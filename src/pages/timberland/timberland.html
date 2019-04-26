@@ -1,0 +1,79 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>Timberland</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="timberland">
+    <h1><i>--- Timberland ---</i></h1>
+  
+    <h2>Timberland 6 inch</h2>
+    <img src="../../assets/imgs/timberlandsix.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £190</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartSix()">Add to cart</button>
+    <br>
+  
+    <h2>Timberland Earthkeeper</h2>
+    <img src="../../assets/imgs/timberlandearth.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £190</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartEarth()">Add to cart</button>
+    <br>
+  
+    <h2>Timberland Euro Hiker</h2>
+    <img src="../../assets/imgs/timberlandhiker.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £150</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartHiker()">Add to cart</button>
+    <br><br>
+  
+    <!-- buttons that allow to check cart/ go to checkout if the total != 0/ goes back to shop-->
+    <button (click)="cart()">Check Cart</button>
+    <button (click)="openCheckoutPage()">Checkout</button>
+    <br>
+    -----------------------------------------------------------------------
+    <button (click)="openShopPage()">Go Back To Shop</button>
+    <br> 
+    -----------------------------------------------------------------------
+   
+  </ion-content>

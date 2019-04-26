@@ -1,0 +1,79 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>New Balance</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="newBalance">
+    <h1><i>--- New Balance ---</i></h1>
+  
+    <h2>New Balance 574</h2>
+    <img src="../../assets/imgs/newbalancefive.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £100</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartFive()">Add to cart</button>
+    <br>
+  
+    <h2>New Balance 990</h2>
+    <img src="../../assets/imgs/newbalancenine.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £150</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartNine()">Add to cart</button>
+    <br>
+  
+    <h2>New Balance 247</h2>
+    <img src="../../assets/imgs/newbalancetwo.jpg" height="100" width="135" class="shoesImg">
+  
+    <!-- Allows the user to pick a size -->
+    <select>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 7.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 8.5</option>
+      <option>Size:&nbsp; &nbsp; &nbsp; 9</option>
+    </select>
+  
+    <!-- Line Break -->
+    <br><br>
+    <b class="cost">Cost: £80</b>
+    <br><br>
+    <!-- buton allowing you to add to cart and updates the total -->
+    <button (click)="addCartTwo()">Add to cart</button>
+    <br><br>
+  
+    <!-- buttons that allow to check cart/ go to checkout if the total != 0/ goes back to shop-->
+    <button (click)="cart()">Check Cart</button>
+    <button (click)="openCheckoutPage()">Checkout</button>
+    <br>
+    -----------------------------------------------------------------------
+    <button (click)="openShopPage()">Go Back To Shop</button>
+    <br> 
+    -----------------------------------------------------------------------
+   
+  </ion-content>

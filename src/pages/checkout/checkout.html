@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Checkout</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- all the code is set in ion-content -->
+<ion-content padding class="checkout">
+  <h1>---Checkout---</h1>
+
+  <!-- ion-input allow the user to put in some input -->
+  <ion-item>
+    <ion-input placeholder="Full Name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="E-mail"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Phone Number"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-input placeholder="Card Number"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-input placeholder="Card Holder"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Expiery Date"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input placeholder="Security Code"></ion-input>
+</ion-item>
+<br>
+<ion-item>
+  <ion-input placeholder="Address Line 1"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input placeholder="Address Line 2"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input placeholder="Address Line 3"></ion-input>
+</ion-item>
+
+<button ion-button full (click)="makePayment()">Make Payment</button>
+
+<!-- button allowing to go back home -->
+-----------------------------------------------------------------------
+  <button (click)="openHomePage()">Go Back Home</button>
+  <br> 
+  -----------------------------------------------------------------------
+
+</ion-content>

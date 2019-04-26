@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>contactUs</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- all the code is set in ion-content -->
+<ion-content padding class="contact">
+  <h1>---Contact Us---</h1>
+  <br>
+  
+  <!-- ion-input allow the user to put in some input -->
+  <ion-item>
+    <ion-input placeholder="Name" type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-input placeholder="E-mail" type="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Telephone" type="tel"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input placeholder="Comments..." type="text"></ion-input>
+  </ion-item>
+
+  <button ion-button full (click)="contact()">Contact</button>
+  <br>
+  <h2>Our Location</h2>
+
+  <!-- address of the company -->
+  ----------------------------------------------------------------------
+  <Address>Address: Businenns Park, Oranmore</Address>
+  <Address>Telephone: +353 91 388 888</Address>
+  <address>E-mail: mattshop@gmail.com</address>
+  -----------------------------------------------------------------------
+  <br><br>
+  <!-- shows the google map (api key in index.html) -->
+  <div #map id="map"></div>
+  <br>
+
+  <!-- button allowing to go back home -->
+  -----------------------------------------------------------------------
+  <button (click)="openHomePage()">Go Back Home</button>
+  <br> 
+  -----------------------------------------------------------------------
+
+</ion-content>

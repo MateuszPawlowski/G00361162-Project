@@ -1,0 +1,40 @@
+page-contact-us {
+
+    #map{
+        height: 75%;
+    }// div map
+
+    .contact{
+        background-color: lightblue;
+        text-align: center;
+    }// contact class
+
+    h1{
+        font-weight: bold;
+        font-size: 3rem;
+        background-color: darkblue;
+        color: white;
+    }// h1 tags
+
+    h2{
+        font-weight: bold;
+        font-size: 3rem;
+        background-color: darkblue;
+        color: white;
+    }// h2 tags
+
+    button{
+        color: white;
+        text-align: center;
+        background-color: darkblue;
+        height: 3ch;
+        width: 17ch;
+        border-radius: 2ch;
+    }// button tags
+
+    Address{
+        text-align: left;
+        color: darkblue;
+    }// address tags
+    
+}// page-contact-us
